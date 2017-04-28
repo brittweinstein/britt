@@ -1,0 +1,31 @@
+We now have the availability to work the conversion tool on other servers besides Production: QA, Staging, and in some cases, TEA. 
+
+Each server will require a different script. The server name is indicated in the title. For example, prodconversion-tool.py, teaconversion-tool.py, qaconversion-tool.py, and stagingconversion-tool.py. 
+
+Download the appropriate script from this repo. 
+
+Open a new window in terminal. 
+
+Access the folder where your script is now stored. IE: cd Downloads 
+
+Tell terminal to run the script. IE: ./stagingconversion-tool.py. 
+
+You will be prompted questions about the conversion. 
+
+The fist questions is "Do you want to input module IDs or collection IDs?" 
+--Type "m" for modules or "c" for collection 
+
+Input ID 
+--Type the module or collection ID
+
+Do you want all of the module IDs in this collection?
+--Type "y" for yes or "n" for no
+
+Pick the output format: csv, excel, or terminal.
+--Type "c" for csv, "e" for excel, or "t" for "tsv"
+
+Type the filename you want for the exported file.
+--Type the desired file name. IE: ChemistryConversion
+
+
+Your file will be created! You can find the output in the same folder where your script is stored.
