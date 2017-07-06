@@ -1,0 +1,8 @@
+This tool is useful if you are trying to migrate multiple sets of content at one time. For example, 
+it using LaunchControl (or a similar program) you could automatically launch different 
+migration tasks. 
+
+Each tell and end tell corresponds to one migration set. Simply change the file names and paths to 
+what exists on your machine and run this script in AppleScript Editor.
+
+IMPORTANT: Before running, edit the script to perform the copy commands that are needed! -COP --publish-collection is input as a default, however your commands will likely be different!
