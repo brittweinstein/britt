@@ -1,6 +1,6 @@
 We now have the availability to work the conversion tool on other servers besides Production: QA, Staging, and in some cases, TEA. 
 
-Each server will require a different script. The server name is indicated in the title. For example, prodconversion-tool.py, teaconversion-tool.py, qaconversion-tool.py, and stagingconversion-tool.py. 
+Each server will require a different script. **The server name is indicated in the title.** For example, prodconversion-tool.py, teaconversion-tool.py, qaconversion-tool.py, and stagingconversion-tool.py. 
 
 Download the appropriate script from this repo. 
 
