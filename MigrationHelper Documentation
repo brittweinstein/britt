@@ -5,4 +5,20 @@ migration tasks.
 Each tell and end tell corresponds to one migration set. Simply change the file names and paths to 
 what exists on your machine and run this script in AppleScript Editor.
 
-IMPORTANT: Before running, edit the script to perform the copy commands that are needed! -COP --publish-collection is input as a default, however your commands will likely be different!
+IMPORTANT: Before running, edit the script to perform the copy commands that are needed! -COP --publish-collection is input as a default, 
+  however your commands will likely be different!
+
+To schedule a "launch."
+1. Open Launch Control on your computer. 
+2. From File, select new. 
+3. In Proram to run: 
+  -The first field is the path to the script you want to run. IE: /Users/brittanyroseweinstein/Documents/Migration.applescript
+  -Sometimes, an error is thrown. There is an option at the bottom of the screen to "fix". Click this if necessary.
+4. In the search bar, type "Standard Output". A drag and drop item will be provided in the panel on the right. Drag and drop it to your work area
+  underneath "Program to run".
+5. There is a "Run at load" object already provided. Click the X on the right to remove this. 
+6. In the search bar, type "Start calendar interval". Drag this over to the bottom of your workspace. Input the dates and times you want 
+  to run this program. 
+7. At the very top of the screen, give your program a label/title. IE: "Scheduled Migration"
+8. From the main menu, under "Job", select "Load". 
+9. Save and the program will automatically launch at the specified time!
