@@ -8,7 +8,7 @@ Open a new window in terminal.
 
 Access the folder where your script is now stored. IE: cd Downloads 
 
-Tell terminal to run the script. IE: ./stagingconversion-tool.py. 
+Tell terminal to run the script. IE: python ./stagingconversion-tool.py 
 
 You will be prompted questions about the conversion. 
 
