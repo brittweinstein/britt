@@ -7,7 +7,7 @@ from openpyxl import Workbook
 from openpyxl.compat import range
 from openpyxl import load_workbook
 
-archiveUrl = "https://archive-qa00.cnx.org/"
+archiveUrl = "https://archive-qa.cnx.org/"
 
 def parseInput():
     """
@@ -217,9 +217,9 @@ def convertColId(colId, getModules):
         isLegacy = False
 
     if isLegacy: #legacyId
-        url = 'https://archive.cnx.org/content/%s/latest' % colId
+        url = archiveUrl + 'content/%s/latest' % colId
     else:
-        url = 'https://archive.cnx.org/contents/%s' % colId
+        url = archiveUrl + 'contents/%s' % colId
     r = requests.get(url, allow_redirects=False)
     if (r.status_code != requests.codes.ok and r.status_code != 302):
         errorIdList.append(colId)
