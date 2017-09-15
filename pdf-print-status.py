@@ -24,7 +24,7 @@ def send_email_report():
 
     # mime multipart
     fromaddress = 'oscontentqa@gmail.com'
-    password =  #Ask Britt for this password and replace with 'providedpassword' when received.
+    password =  # Ask Britt for the password and replace: 'password goes in these quotes'
     subject = 'PDFs not locked on production: ' + str(today)
 
     msg = MIMEMultipart()
@@ -84,7 +84,8 @@ booklist = {
     '11910':'Principles of Economics for Concept Coach',
     '11918':'Biology for Concept Coach',
     '11917':'Anatomy & Physiology for Concept Coach',
-    '11933':'Introduction to Sociology 2e for Concept Coach'
+    '11933':'Introduction to Sociology 2e for Concept Coach',
+    '12170':'Principles of Microeconomics 2e'
     }
 
 # Create empty lists to store status messages for the email notification.
